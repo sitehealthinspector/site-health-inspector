@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="component" method="upgrade">
+    <name>COM_SITEHEALTH</name>
+    <creationDate>2026-10-31</creationDate>
+    <author>Site Health Inspector</author>
+    <license>GNU General Public License version 2 or later</license>
+    <version>0.9.39</version>
+    <description>Site Health Inspector diagnostic, compatibility, and Joomla 6 migration readiness scanner for Joomla.</description>
+    <element>com_sitehealth</element>
+    <namespace path="src">Joomla\Component\SiteHealth</namespace>
+    <scriptfile>script.php</scriptfile>
+    <access component="com_sitehealth">
+        <section name="component">
+            <action name="core.manage" title="JACTION_MANAGE" />
+        </section>
+    </access>
+    <media folder="media/com_sitehealth" destination="com_sitehealth">
+        <folder>css</folder>
+    </media>
+    <administration>
+        <languages folder="administrator/components/com_sitehealth/language">
+            <language tag="en-GB">en-GB/com_sitehealth.ini</language>
+            <language tag="en-GB">en-GB/com_sitehealth.sys.ini</language>
+        </languages>
+        <menu link="index.php?option=com_sitehealth">COM_SITEHEALTH_MENU</menu>
+        <files folder="administrator/components/com_sitehealth">
+            <folder>services</folder>
+            <folder>src</folder>
+            <filename>access.xml</filename>
+            <folder>tmpl</folder>
+        </files>
+    </administration>
+</extension>

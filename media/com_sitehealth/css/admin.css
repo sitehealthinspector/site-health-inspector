@@ -1,0 +1,199 @@
+.jh-wrap{width:100%;max-width:100%;box-sizing:border-box}.jh-wrap *{box-sizing:border-box}.jh-wrap h1 small{font-size:.55em;opacity:.6}.jh-card{background:#fff;border:1px solid #dfe3e7;border-radius:8px;padding:1.2rem;margin-bottom:1rem;max-width:100%;overflow:hidden}.jh-score{display:flex;justify-content:space-between;align-items:center}.jh-score strong{display:block;font-size:2.3rem}.jh-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:1rem}.jh-wrap dl{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:.5rem}.jh-wrap dd{margin:0;overflow-wrap:anywhere}.jh-finding{border-left:4px solid #777;padding:.7rem;margin:.5rem 0;background:#f7f7f7}.jh-finding p{margin:.3rem 0 0;overflow-wrap:anywhere}.jh-critical{border-color:#b42318}.jh-warning{border-color:#b54708}.jh-info{border-color:#175cd3}.jh-status-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:12px}.jh-status-grid>div{border:1px solid #ddd;border-radius:6px;padding:14px;background:#fff;min-width:0}.jh-status-grid strong{display:block;font-size:24px}.jh-status-grid span{display:block;margin-top:4px;color:#666;overflow-wrap:anywhere}.jh-note{font-size:12px;color:#666;margin-top:12px;overflow-wrap:anywhere}.jh-table-wrap{width:100%;max-width:100%;overflow:visible}.jh-table{width:100%!important;max-width:100%;table-layout:fixed;font-size:12px;margin:0!important}.jh-table th,.jh-table td{vertical-align:middle;white-space:normal!important;overflow-wrap:anywhere;word-break:break-word}.jh-table th:nth-child(1),.jh-table td:nth-child(1){width:18%}.jh-table th:nth-child(2),.jh-table td:nth-child(2){width:8%}.jh-table th:nth-child(3),.jh-table td:nth-child(3){width:8%}.jh-table th:nth-child(4),.jh-table td:nth-child(4){width:11%}.jh-table th:nth-child(5),.jh-table td:nth-child(5){width:14%}.jh-table th:nth-child(6),.jh-table td:nth-child(6){width:17%}.jh-table th:nth-child(7),.jh-table td:nth-child(7){width:9%}.jh-table th:nth-child(8),.jh-table td:nth-child(8){width:15%}.jh-badge{display:inline-flex!important;align-items:center;justify-content:center;padding:5px 9px!important;border:1px solid transparent!important;border-radius:999px!important;font-size:11px!important;font-weight:700!important;line-height:1.2!important;white-space:normal!important;text-align:center!important;max-width:100%;overflow-wrap:anywhere}.jh-badge-compatible{background:#dff3e4!important;border-color:#9ed5aa!important;color:#176b2c!important}.jh-badge-review{background:#fff0c2!important;border-color:#e2c76a!important;color:#805b00!important}.jh-badge-critical{background:#f9d7d7!important;border-color:#e0a1a1!important;color:#8b1e1e!important}.jh-badge-unknown{background:#e8e8e8!important;border-color:#c9c9c9!important;color:#555!important}.jh-important{border-left:4px solid #175cd3}.jh-important ul{margin:0;padding-left:1.3rem}.jh-important li{margin:.45rem 0;overflow-wrap:anywhere}@media(max-width:1100px){.jh-table{font-size:11px!important}.jh-table th,.jh-table td{padding:.45rem!important}.jh-badge{font-size:10px!important;padding:4px 6px!important}}@media(max-width:800px){.jh-grid{grid-template-columns:1fr}.jh-score{display:block}.jh-table{font-size:10px!important}.jh-table th,.jh-table td{padding:.35rem!important}.jh-table th:nth-child(4),.jh-table td:nth-child(4),.jh-table th:nth-child(5),.jh-table td:nth-child(5){font-size:9px!important}}
+
+.jh-code-finding td{font-size:.9em;line-height:1.45;background:rgba(0,0,0,.025)}
+.jh-code-finding strong{font-weight:700}
+
+.jh-finding-meta{display:inline-block;margin-left:.35rem;color:#666;font-size:.9em}
+
+.jh-action-list{margin:0;padding-left:1.25rem}.jh-action-list li{margin:.2rem 0}
+.jh-migration-tools{display:flex;flex-wrap:wrap;gap:.6rem;align-items:end;margin-top:1rem}.jh-migration-tools label{display:flex;flex-direction:column;gap:.25rem;font-size:12px;font-weight:600}.jh-migration-tools input,.jh-migration-tools select{min-height:34px;padding:.35rem .55rem;border:1px solid #c8cdd2;border-radius:4px;background:#fff}.jh-migration-tools button{min-height:34px}.jh-action-row.jh-hidden{display:none!important}@media print{.jh-migration-tools,.btn,#jh-action-search,#jh-risk-filter{display:none!important}.jh-card{break-inside:avoid;border-color:#bbb}.jh-wrap{max-width:none}.jh-table-wrap{overflow:visible!important}.jh-print-action-plan .jh-wrap > :not(#jh-action-plan-card){display:none!important}.jh-print-action-plan #jh-action-plan-card{display:block!important}.jh-print-action-plan #jh-action-plan-card .jh-action-row:not(.jh-print-row){display:none!important}.jh-print-action-plan #jh-action-plan-card h2{margin-top:0}.jh-print-action-plan #jh-action-plan-card .jh-note{display:block!important}}
+
+.jh-migration-tools{display:grid;grid-template-columns:minmax(140px,1.4fr) minmax(85px,.7fr) repeat(4,minmax(95px,1fr));align-items:end;gap:.5rem;margin-top:1rem;width:100%;max-width:100%;overflow:hidden}.jh-migration-tools label{min-width:0}.jh-migration-tools input,.jh-migration-tools select{width:100%;min-width:0}.jh-migration-tools button{width:100%;min-width:0;white-space:normal;line-height:1.15;padding:.35rem .4rem}.jh-migration-tools button:disabled{opacity:.55;cursor:not-allowed}@media(max-width:900px){.jh-migration-tools{grid-template-columns:minmax(120px,1.25fr) minmax(75px,.65fr) repeat(4,minmax(78px,1fr));gap:.35rem}.jh-migration-tools button{font-size:11px}}
+
+/* 0.8.4: keep the component inside the administrator viewport. */
+.jh-wrap{min-width:0;width:100%;max-width:100%;overflow-x:hidden;overflow-wrap:anywhere}
+.jh-wrap .jh-card,.jh-wrap .jh-grid,.jh-wrap .jh-status-grid,.jh-wrap .jh-table-wrap,.jh-wrap table{min-width:0;max-width:100%}
+.jh-migration-tools{min-width:0;overflow:visible}
+.jh-migration-tools>*{min-width:0;max-width:100%}
+
+/* 0.8.5: Site Health Inspector must never create an administrator page-level horizontal scrollbar. */
+html.jh-no-horizontal-scroll, body.jh-no-horizontal-scroll { overflow-x: hidden !important; max-width: 100% !important; }
+.jh-wrap, .jh-wrap * { max-width: 100%; }
+.jh-wrap table { min-width: 0 !important; width: 100% !important; }
+
+/* 0.8.6: also constrain the Joomla administrator content container. */
+.jh-admin-no-horizontal-scroll{overflow-x:hidden!important;max-width:100%!important;min-width:0!important}
+html.jh-no-horizontal-scroll body.jh-no-horizontal-scroll .jh-wrap{max-width:100%!important;min-width:0!important;overflow-x:hidden!important}
+
+/* Compact Migration Center action labels without changing the toolbar layout. */
+.jh-migration-tools button{font-size:11px!important;line-height:1.2;padding:.3rem .35rem}
+@media(max-width:900px){.jh-migration-tools button{font-size:10px!important}}
+
+/* 0.8.8: compact Migration Center action labels; full wording remains in title tooltips. */
+.jh-migration-tools button{font-size:10px!important;line-height:1.1!important;padding:.25rem .3rem!important;letter-spacing:0!important}
+@media(max-width:900px){.jh-migration-tools button{font-size:9px!important;padding:.2rem .25rem!important}}
+
+/* 0.9.0 Migration progress tracker */
+.jh-progress-summary{font-size:12px;margin:.6rem 0;padding:.6rem .75rem;background:#f5f7fa;border:1px solid #e1e5ea;border-radius:5px;color:#344054}
+.jh-progress-select{width:100%;min-width:0;max-width:100%;font-size:11px;padding:.3rem;border:1px solid #c8cdd2;border-radius:4px;background:#fff}
+.jh-action-table th:nth-child(6),.jh-action-table td:nth-child(6){width:12%}
+@media print{.jh-progress-summary{display:none!important}.jh-progress-select{border:0;background:transparent;appearance:none;padding:0}}
+
+/* 0.9.1: extension-level migration notes */
+.jh-migration-note{display:block;width:100%;min-width:0;max-width:100%;min-height:42px;resize:vertical;padding:.35rem .45rem;border:1px solid #c8cdd2;border-radius:4px;font-size:11px;line-height:1.35;background:#fff;color:#222}
+.jh-action-table th:nth-child(6),.jh-action-table td:nth-child(6){width:10%}
+.jh-action-table th:nth-child(7),.jh-action-table td:nth-child(7){width:20%}
+@media(max-width:800px){.jh-migration-note{font-size:10px;min-height:38px}}
+
+
+/* 0.9.2: portable migration workspace controls */
+.jh-workspace-tools{display:flex;align-items:center;flex-wrap:wrap;gap:.45rem;margin-top:.65rem;padding:.6rem .7rem;border:1px solid #dfe3e8;border-radius:5px;background:#fafbfc;font-size:12px}
+.jh-workspace-tools button{font-size:11px!important;line-height:1.2;padding:.3rem .5rem}
+.jh-workspace-tools small{color:#667085;font-size:11px}
+
+
+/* 0.9.3: separate and clarify workspace backup controls. */
+.jh-workspace-card{margin-top:1rem!important;border-left:3px solid #64748b!important}
+.jh-workspace-heading{display:flex;align-items:center;justify-content:space-between;gap:1.25rem;flex-wrap:wrap}
+.jh-workspace-heading h2{margin:0 0 .35rem;font-size:1.15rem}
+.jh-workspace-heading .jh-note{margin:.2rem 0 0;max-width:780px}
+.jh-workspace-actions{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;flex-shrink:0}
+.jh-workspace-actions .btn{min-height:38px;padding:.5rem .85rem;font-size:13px!important;line-height:1.25;white-space:nowrap}
+.jh-workspace-actions #jh-export-workspace{font-weight:600}
+.jh-workspace-hint{margin:.8rem 0 0;padding:.55rem .7rem;border-radius:4px;background:#f6f8fa;color:#475467;font-size:12px;line-height:1.5}
+@media(max-width:700px){.jh-workspace-heading{display:block}.jh-workspace-actions{margin-top:.8rem}.jh-workspace-actions .btn{flex:1 1 145px}.jh-workspace-hint{font-size:11px}}
+@media print{.jh-workspace-card{display:none!important}}
+
+
+/* 0.9.5: slightly larger Migration Center action labels. */
+.jh-migration-tools button{font-size:12px!important;line-height:1.15!important;padding:.25rem .3rem!important}
+@media(max-width:900px){.jh-migration-tools button{font-size:11px!important}}
+
+
+/* 0.9.6: live Migration Workspace Summary. */
+.jh-workspace-summary{margin:.8rem 0 1rem;padding:.75rem;border:1px solid #dfe3e8;border-radius:6px;background:#fafbfc}
+.jh-workspace-summary-head{display:flex;align-items:center;justify-content:space-between;gap:.75rem;margin-bottom:.65rem;font-size:12px;color:#344054}
+.jh-workspace-summary-head span{font-weight:700}
+.jh-workspace-summary-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:.55rem}
+.jh-workspace-summary-grid>div{min-width:0;padding:.55rem .6rem;border:1px solid #e4e7ec;border-radius:5px;background:#fff}
+.jh-workspace-summary-grid strong{display:block;font-size:18px;line-height:1.15}
+.jh-workspace-summary-grid span{display:block;margin-top:.2rem;font-size:11px;color:#667085;overflow-wrap:anywhere}
+@media(max-width:800px){.jh-workspace-summary-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:500px){.jh-workspace-summary-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.jh-workspace-summary-head{display:block}.jh-workspace-summary-head span{display:block;margin-top:.25rem}}
+@media print{.jh-workspace-summary{display:none!important}}
+
+
+/* 0.9.7: compact per-extension migration verification checklist. */
+.jh-test-checklist{margin-top:.55rem;padding:.35rem .45rem;border:1px solid #e1e5ea;border-radius:4px;background:#fafbfc;font-size:11px}
+.jh-test-checklist summary{cursor:pointer;font-weight:600;color:#344054;line-height:1.4}
+.jh-test-checklist summary:focus-visible{outline:2px solid #175cd3;outline-offset:2px}
+.jh-checklist-count{display:inline-block;margin-left:.25rem;color:#667085;font-weight:500}
+.jh-checklist-items{display:grid;gap:.3rem;margin-top:.45rem}
+.jh-checklist-items label{display:flex;align-items:flex-start;gap:.35rem;margin:0;font-size:11px;line-height:1.35;font-weight:400}
+.jh-checklist-items input{flex:0 0 auto;margin:.1rem 0 0}
+@media(max-width:800px){.jh-test-checklist,.jh-checklist-items label{font-size:10px}}
+@media print{.jh-test-checklist .jh-checklist-items{display:grid!important}.jh-test-checklist summary{list-style:none}}
+
+
+/* 0.9.8: clearer, task-oriented extension verification checklist. */
+.jh-test-checklist{margin-top:.65rem;border:1px solid #d0d5dd;border-radius:6px;background:#fff;font-size:12px;overflow:hidden}
+.jh-test-checklist>summary{display:flex;align-items:center;gap:.5rem;list-style:none;cursor:pointer;padding:.55rem .65rem;color:#344054;font-weight:600;line-height:1.35;background:#f8fafc}
+.jh-test-checklist>summary::-webkit-details-marker{display:none}
+.jh-test-checklist>summary:focus-visible{outline:2px solid #175cd3;outline-offset:-2px}
+.jh-checklist-summary-title{flex:1 1 auto;min-width:0}
+.jh-checklist-count{flex:0 0 auto;padding:.15rem .45rem;border-radius:999px;background:#eef2f6;color:#475467;font-size:10px;font-weight:600;white-space:nowrap}
+.jh-checklist-chevron{width:7px;height:7px;flex:0 0 7px;border-right:2px solid #667085;border-bottom:2px solid #667085;transform:rotate(45deg);transition:transform .15s ease;margin:0 .2rem .2rem 0}
+.jh-test-checklist[open] .jh-checklist-chevron{transform:rotate(225deg);margin-top:.3rem;margin-bottom:0}
+.jh-checklist-panel{padding:.65rem;border-top:1px solid #eaecf0}
+.jh-checklist-intro{margin:0 0 .5rem;color:#667085;font-size:10px;line-height:1.45}
+.jh-checklist-items{display:grid;gap:.35rem;margin:0}
+.jh-checklist-items label{display:flex;align-items:flex-start;gap:.55rem;margin:0;padding:.45rem .5rem;border:1px solid #eaecf0;border-radius:5px;background:#fff;font-size:11px;line-height:1.35;font-weight:400;cursor:pointer}
+.jh-checklist-items label:hover{background:#f9fafb;border-color:#cbd5e1}
+.jh-checklist-items input{flex:0 0 auto;margin:.15rem 0 0;accent-color:#1570ef;width:14px;height:14px}
+.jh-checklist-items label span{display:block;min-width:0}
+.jh-checklist-items label strong{display:block;color:#344054;font-size:11px;font-weight:600}
+.jh-checklist-items label small{display:block;margin-top:.12rem;color:#667085;font-size:10px;line-height:1.35}
+.jh-checklist-items input:checked+span strong{color:#067647}
+@media(max-width:800px){.jh-test-checklist>summary{padding:.5rem}.jh-checklist-panel{padding:.5rem}.jh-checklist-items label{padding:.4rem;font-size:10px}.jh-checklist-items label strong{font-size:10px}}
+@media print{.jh-test-checklist>summary{background:#fff}.jh-checklist-panel{display:block!important}.jh-checklist-items label{break-inside:avoid}}
+
+
+/* 0.9.9: compact checklist disclosure to reduce Migration Action Plan clutter. */
+.jh-test-checklist{margin-top:.45rem;border:0;background:transparent;overflow:visible;font-size:11px}
+.jh-test-checklist>summary{display:inline-flex;align-items:center;gap:.4rem;list-style:none;cursor:pointer;padding:.28rem .45rem;border:1px solid #d0d5dd;border-radius:4px;background:#f8fafc;color:#344054;font-size:11px;font-weight:600;line-height:1.25}
+.jh-test-checklist>summary::-webkit-details-marker{display:none}
+.jh-test-checklist>summary:hover{background:#f2f4f7;border-color:#98a2b3}
+.jh-checklist-count{padding:.08rem .32rem;border-radius:999px;background:#e9eef5;color:#475467;font-size:10px;font-weight:700}
+.jh-test-checklist[open]>summary{border-color:#98a2b3;background:#eef2f6}
+.jh-checklist-panel{padding:.45rem 0 0;border:0}
+.jh-checklist-intro{display:none}
+.jh-checklist-items{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.3rem;margin:0}
+.jh-checklist-items label{display:flex;align-items:center;gap:.35rem;min-width:0;margin:0;padding:.32rem .4rem;border:1px solid #eaecf0;border-radius:4px;background:#fff;font-size:10px;line-height:1.25;font-weight:500;cursor:pointer}
+.jh-checklist-items label:hover{border-color:#cbd5e1;background:#f9fafb}
+.jh-checklist-items input{flex:0 0 auto;width:13px;height:13px;margin:0;accent-color:#1570ef}
+.jh-checklist-items label span{display:block;min-width:0;color:#475467}
+.jh-checklist-items input:checked+span{color:#067647}
+.jh-checklist-items label:last-child:nth-child(odd){grid-column:1/-1}
+@media(max-width:800px){.jh-checklist-items{grid-template-columns:1fr}.jh-checklist-items label:last-child:nth-child(odd){grid-column:auto}}
+@media print{.jh-test-checklist>summary{display:none!important}.jh-checklist-panel{display:block!important}.jh-checklist-items{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+
+/* 0.9.11: checklist opens as a compact floating panel, not an expanding table cell. */
+#jh-action-plan-card{overflow:visible!important;position:relative;z-index:1}
+#jh-action-plan-card .jh-table-wrap{overflow:visible!important}
+#jh-action-plan-card .jh-action-table{border-collapse:separate;border-spacing:0}
+#jh-action-plan-card .jh-action-row:has(.jh-test-checklist[open]){position:relative;z-index:20}
+#jh-action-plan-card .jh-action-row:has(.jh-test-checklist[open])>td{position:relative}
+#jh-action-plan-card .jh-test-checklist{position:relative;display:inline-block;margin:.35rem 0 0;vertical-align:top;z-index:2}
+#jh-action-plan-card .jh-test-checklist>summary{display:inline-flex;align-items:center;gap:.45rem;min-height:27px;padding:.28rem .55rem;border:1px solid #d0d5dd;border-radius:5px;background:#fff;color:#344054;font-size:11px;font-weight:600;line-height:1.2;box-shadow:0 1px 2px rgba(16,24,40,.05)}
+#jh-action-plan-card .jh-test-checklist>summary:hover{border-color:#98a2b3;background:#f9fafb}
+#jh-action-plan-card .jh-test-checklist>summary:focus-visible{outline:2px solid #175cd3;outline-offset:2px}
+#jh-action-plan-card .jh-checklist-count{min-width:29px;padding:.12rem .35rem;border-radius:999px;background:#eef2f6;color:#475467;text-align:center;font-size:10px;font-weight:700;font-variant-numeric:tabular-nums}
+#jh-action-plan-card .jh-test-checklist[open]>summary{border-color:#84adff;background:#eff8ff}
+#jh-action-plan-card .jh-test-checklist[open]>summary .jh-checklist-count{background:#dbeafe;color:#1849a9}
+#jh-action-plan-card .jh-checklist-chevron{width:6px;height:6px;margin:0 0 2px;border-right:1.5px solid #667085;border-bottom:1.5px solid #667085;transform:rotate(45deg)}
+#jh-action-plan-card .jh-test-checklist[open] .jh-checklist-chevron{margin:3px 0 0;transform:rotate(225deg)}
+#jh-action-plan-card .jh-checklist-panel{position:absolute;top:calc(100% + 6px);left:0;width:290px;max-width:min(290px,75vw);padding:.65rem;background:#fff;border:1px solid #d0d5dd;border-radius:7px;box-shadow:0 12px 28px rgba(16,24,40,.16);z-index:1000}
+#jh-action-plan-card .jh-checklist-items{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.4rem;margin:0}
+#jh-action-plan-card .jh-checklist-items label{display:flex;align-items:flex-start;gap:.4rem;min-width:0;min-height:35px;margin:0;padding:.42rem;border:1px solid #eaecf0;border-radius:5px;background:#fff;color:#344054;font-size:10px;line-height:1.3;font-weight:500;cursor:pointer}
+#jh-action-plan-card .jh-checklist-items label:hover{border-color:#b2ccff;background:#f8fbff}
+#jh-action-plan-card .jh-checklist-items input{width:14px;height:14px;flex:0 0 14px;margin:0;accent-color:#1570ef}
+#jh-action-plan-card .jh-checklist-items label span{display:block;min-width:0;overflow-wrap:anywhere}
+#jh-action-plan-card .jh-checklist-items input:checked+span{color:#067647}
+@media(max-width:800px){#jh-action-plan-card .jh-checklist-panel{width:260px;max-width:75vw;padding:.5rem}#jh-action-plan-card .jh-checklist-items{grid-template-columns:1fr;gap:.3rem}#jh-action-plan-card .jh-checklist-items label{min-height:30px;padding:.35rem}}
+@media print{#jh-action-plan-card .jh-test-checklist>summary{display:none!important}#jh-action-plan-card .jh-checklist-panel{position:static;display:block!important;width:auto;max-width:none;padding:.25rem;border:0;box-shadow:none}#jh-action-plan-card .jh-checklist-items{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+
+/* 0.9.12: show checklist entries in one readable vertical column on every screen and in print. */
+#jh-action-plan-card .jh-checklist-items{grid-template-columns:minmax(0,1fr)!important}
+#jh-action-plan-card .jh-checklist-items label{align-items:flex-start;min-height:34px;padding:.48rem .55rem;font-size:11px;line-height:1.4}
+#jh-action-plan-card .jh-checklist-items label:last-child:nth-child(odd){grid-column:auto}
+@media(max-width:800px){#jh-action-plan-card .jh-checklist-items{grid-template-columns:minmax(0,1fr)!important}}
+@media print{#jh-action-plan-card .jh-checklist-items{grid-template-columns:minmax(0,1fr)!important}}
+
+
+/* 0.9.13: force a simple five-row checklist and prevent the Checks counter wrapping. */
+#jh-action-plan-card .jh-test-checklist>summary{display:inline-flex!important;flex-wrap:nowrap!important;white-space:nowrap!important;width:max-content;max-width:100%;gap:.4rem}
+#jh-action-plan-card .jh-checklist-summary-title{display:inline-block!important;flex:0 0 auto!important;min-width:max-content!important;white-space:nowrap!important}
+#jh-action-plan-card .jh-test-checklist>summary .jh-checklist-count{display:inline-block!important;flex:0 0 auto!important;white-space:nowrap!important;min-width:0}
+#jh-action-plan-card .jh-checklist-panel{width:300px;max-width:min(300px,82vw)}
+#jh-action-plan-card .jh-checklist-items{display:flex!important;flex-direction:column!important;flex-wrap:nowrap!important;align-items:stretch!important;gap:.35rem!important;width:100%!important;margin:0!important}
+#jh-action-plan-card .jh-checklist-items>label{display:flex!important;flex:0 0 auto!important;flex-direction:row!important;align-items:center!important;width:100%!important;min-width:0!important;box-sizing:border-box!important;grid-column:auto!important;min-height:32px;padding:.4rem .5rem;font-size:11px;line-height:1.35}
+#jh-action-plan-card .jh-checklist-items>label>span{display:block!important;flex:1 1 auto!important;min-width:0!important;overflow-wrap:normal!important;word-break:normal!important}
+@media(max-width:800px){#jh-action-plan-card .jh-checklist-panel{width:280px;max-width:82vw}#jh-action-plan-card .jh-checklist-items>label{min-height:30px}}
+@media print{#jh-action-plan-card .jh-test-checklist>summary{display:none!important}#jh-action-plan-card .jh-checklist-panel{position:static;width:auto;max-width:none}#jh-action-plan-card .jh-checklist-items{display:flex!important;flex-direction:column!important}}
+
+
+/* 0.9.14: presentation fallback; the checklist structure also carries inline layout rules so stale/theme CSS cannot restore columns. */
+#jh-action-plan-card .jh-checklist-items{display:flex!important;flex-direction:column!important;flex-wrap:nowrap!important;align-items:stretch!important}
+#jh-action-plan-card .jh-checklist-items>label{display:flex!important;flex:0 0 auto!important;width:100%!important;grid-column:auto!important}
+#jh-action-plan-card .jh-test-checklist>summary{white-space:nowrap!important;flex-wrap:nowrap!important}
+
+.jh-release-summary{display:flex;align-items:center;gap:.65rem;flex-wrap:wrap}.jh-release-summary strong{font-size:1.5rem}.jh-release-table th:nth-child(1),.jh-release-table td:nth-child(1){width:25%}.jh-release-table th:nth-child(2),.jh-release-table td:nth-child(2){width:15%}.jh-release-table th:nth-child(3),.jh-release-table td:nth-child(3){width:60%}
+
+
+.jh-workspace-action-item{padding:6px 8px;border:1px solid #e0e5ea;border-radius:4px;background:#fafbfc}
+.jh-workspace-action-main{display:flex;justify-content:space-between;gap:10px;align-items:baseline}
+.jh-workspace-action-status{font-size:.82rem;white-space:nowrap}
+.jh-workspace-action-next{margin-top:2px}
+.jh-workspace-action-note{margin-top:2px;color:#596879;font-style:italic}
