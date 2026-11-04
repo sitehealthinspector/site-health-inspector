@@ -1,0 +1,25 @@
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.sublime-workspace
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+*.orig
+
+# Local development
+.env
+.env.*
+vendor/
+node_modules/
+
+# Generated archives
+*.zip
