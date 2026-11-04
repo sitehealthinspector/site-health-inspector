@@ -6,7 +6,7 @@ Site Health Inspector for Joomla is an administrator component for Joomla 4.4, 5
 
 - Joomla 5.4 → 6 compatibility metadata analysis
 - Static PHP source compatibility scanning
-- Migration preflight checks
+- Migration preflight check
 - Migration action plan and workspace tracking
 - Client-ready migration reporting
 - Registered vendor update-site compatibility metadata retrieval
